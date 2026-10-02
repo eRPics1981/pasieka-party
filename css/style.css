@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1a0a00;
+  overflow: hidden;
+  cursor: default;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  user-select: none;
+}
+
+#game-container {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#game-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

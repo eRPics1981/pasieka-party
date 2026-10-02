@@ -1,0 +1,36 @@
+﻿/* Button and screen polish */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.045); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+button,
+[role="button"] {
+  animation: pulse 1.8s ease-in-out infinite;
+}
+
+.screen {
+  animation: fadeIn 350ms ease-out both;
+}
+
+/* cursor widoczny zawsze — crosshair rysowany przez Canvas */
+
+@media (min-width: 1200px) {
+  html { font-size: 20px; }
+  h1 { font-size: clamp(3rem, 5vw, 5rem); }
+  h2 { font-size: clamp(2.25rem, 3.5vw, 3.5rem); }
+  button, [role="button"] { font-size: 1.35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

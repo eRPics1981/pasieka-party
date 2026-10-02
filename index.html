@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Permissions-Policy" content="camera=*">
+<title>Pasieka Party - Gra Imprezowa</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-improvements.css">
+</head>
+<body>
+<div id="game-container">
+  <canvas id="game-canvas"></canvas>
+  <video id="camera-feed" autoplay playsinline style="display:none"></video>
+  <canvas id="camera-canvas" style="display:none"></canvas>
+</div>
+
+<!-- MediaPipe Hands -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1675466862/camera_utils.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose@0.5.1675469404/pose.js"></script>
+
+<script src="js/sound-effects.js"></script>
+<script src="js/hand-tracking.js"></script>
+<script src="js/graphics.js"></script>
+<script src="js/rounds.js"></script>
+<script src="js/photo-collage.js"></script>
+<script src="js/player-profiles.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

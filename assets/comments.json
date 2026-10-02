@@ -1,0 +1,53 @@
+{
+  "frame_good": [
+    "Delikatna rączka!", "Jak akuszer!", "Równiutko!", "Pszczoły zazdroszczą!",
+    "Lepiej niż pszczelarz z 20-letnim stażem!", "Rameczka jak malowana!",
+    "Nie uronił ani kropli!", "Ręce jak z jedwabiu!", "Chirurgiczna precyzja!",
+    "Pszczoły biją brawo!", "Mistrzostwo świata w ramkowaniu!"
+  ],
+  "frame_bad": [
+    "Cały wosk na podłodze!", "Pszczoły płaczą!", "To miało być delikatne!",
+    "Ramka jak po przejściu tornada!", "Miód wszędzie, tylko nie w słoiku!",
+    "Pszczelarzu, lepiej wróć do biura!", "Co za rzeź niewiniątek!",
+    "Pszczoły się wyprowadzają!", "Ramka poszła w drzazgi!",
+    "Nawet niedźwiedź jest delikatniejszy!", "Trzęsiesz się jak galareta!"
+  ],
+  "crank_good": [
+    "Mistrz wirówki!", "Miodek leci!", "Kręci jak szalony!",
+    "Wirtuoz korby!", "Tempo idealne!", "Złota rączka!",
+    "Miodarka aż śpiewa!", "Kręcisz lepiej niż DJ!",
+    "Płynnie jak masełko!", "Równy rytm, szacunek!",
+    "Korba ci się kłania!"
+  ],
+  "crank_bad": [
+    "Rozbujałeś pasiekę!", "Miodarka prawie odleciała!",
+    "To kręcenie czy trzęsienie ziemi?", "Korba błaga o litość!",
+    "Wolniej, to nie dyskoteka!", "Miód się cofnął ze strachu!",
+    "Pszczoły uciekły!", "Wirówka płacze!",
+    "Kręcisz jak pralka na wirówce!", "Bez rytmu, bez sensu!",
+    "Miodarka zgłasza nadużycia!"
+  ],
+  "ducks_good": [
+    "Snajper!", "Oko sokoła!", "Seria jak z karabinu!",
+    "Kaczor na celowniku!", "Bingo!", "Myśliwy roku!",
+    "Żadna nie uciekła!", "Precyzja chirurgiczna!",
+    "Celne oko!", "Kaczki w panice!", "Strzelec wyborowy!"
+  ],
+  "ducks_bad": [
+    "Nawet stodoły byś nie trafił!", "Kaczki się śmieją!",
+    "Pudło za pudłem!", "Lepiej wróć do miodu!",
+    "Ślepy jak kret!", "Kaczki wysyłają podziękowania!",
+    "Zero na liczniku!", "Może spróbuj z bliższa?",
+    "Kaczki machają ci na pożegnanie!", "Amunicja zmarnowana!",
+    "Nawet ślepa kura trafia lepiej!"
+  ],
+  "titles": {
+    "best_frame": "Mistrz Ramki",
+    "best_crank": "Król Wirówki",
+    "best_ducks": "Postrach Kaczek",
+    "worst_overall": "Truteń Roku",
+    "best_overall": "Król Pasieki",
+    "most_precise": "Chirurg Pasieki",
+    "fastest": "Błyskawica Ula"
+  }
+}

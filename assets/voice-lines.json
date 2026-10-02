@@ -1,0 +1,301 @@
+{
+  "powitanie": [
+    "Dyć witajta! Chodźta bliży, ino bez popychania, bo się kotylijon przewróci.",
+    "O, nowy gość! Kajś ty się tak długo podziewoł? Miód już stygnie!",
+    "Wchodźta śmiało, wele ula jest miejsce i dla ciebie, i dla wujka.",
+    "Dyć to nasz zawodnik! Jyno nie stój jak kołek, bo kapela gra.",
+    "Hej, ty! Niy chowaj rąk po kieszeniach, pokaż, co umisz!",
+    "A witaj, witaj! Siądź se na chwilę, abo lepi od razu tańcuj.",
+    "Kajś tu pachnie miodem i weselnym bigosem. O, to ty!",
+    "No, dyć przyszła posiłka! Pszczoły już coś tam o tobie gadały.",
+    "Witajta na zabawie! Wele stołu stoją ciasta, ino nie podjadaj przed rundą.",
+    "Jyno patrzajta, jaki elegancki gość! Zaroz damy ci robotę w ulu."
+  ],
+  "zachęta": [
+    "Dyć ruszaj się, człowieku! To wesele, niy poczekalnia.",
+    "Stoisz już trzy sekundy, a pszczoły robią za ciebie cały korowód!",
+    "No dawaj, ino jaki ruch! Nawet wujek po kompocie tańcuje żwawiej.",
+    "Niy śpij na stojąco, bo ci kotylijon sam odleci.",
+    "Kajś zgubił werwę? Wele ekranu leży, podnieś ją se!",
+    "Dyć machnij ręką, jyno nie w stronę tortu!",
+    "Coś tam trzeba zrobić, bo miód sam się nie wykręci.",
+    "Pszczoły już się ruszają, a ty niy? Wstyd na całą remizę!",
+    "Dawajta, dawajta! Kapela gra, a zawodnik jakby liczył kafelki.",
+    "Ruszyć się, ino żwawo! Poprawiny same się nie wygrają."
+  ],
+  "zaproszenie_drugiego": [
+    "Dyć zawołaj kogoś jeszcze! Nie baw się sam jak palec!",
+    "Kaj drugi zawodnik? Samemu to se można pilnować tortu.",
+    "Wołajta ekipę, bo pszczoły nie będą za ciebie klaskać!",
+    "Dyć nie stój sam wele ula, przyprowadźta kogoś do zabawy!",
+    "Jyno jedna dłoń? To nie wesele, to próba techniczna!",
+    "Zawołaj wujka albo ciotkę, niech pokażą, kto tu umie!",
+    "Kaj się podział drugi zawodnik? Zabawa czeka na komplet!",
+    "Sam jak palec i jeszcze chcesz wygrać? Dyć wołaj posiłki!",
+    "Nie chowaj imprezy dla siebie, wele stołu czeka druga ręka!",
+    "Dyć druga dłoń potrzebna! Niech ktoś wlezie w kadr i zaczynamy!"
+  ],
+  "nikt_nie_gra": [
+    "Dyć tu się nudzi bez ludzi! Zawołaj kogoś!",
+    "Kaj wszyscy poszli? Pszczoły już czekają na zabawę!",
+    "Sam ekran patrzy i wzdycha. Dyć wołajta ekipę!",
+    "Niy zostawiaj pasieki samej, bo miód się obrazi!",
+    "Pusto jak po poprawinach. Zawołaj zawodników!",
+    "Dyć wracajta do kadru, bo impreza stoi jak wóz w błocie!",
+    "Ani jednej dłoni? To kto tu ma wygrać ten miód?",
+    "Kamera czeka, pszczoły czekają, a ludzi ni ma. Wołajta kogoś!"
+  ],
+  "reakcja_trafienie": [
+    "Dyć trafił! Kajś się takiego oka nauczył, u sołtysa?",
+    "No i pięknie! Miód leci, a wujek już klaszcze kuflem.",
+    "Trafione! Pszczoły niosą ci kotylijon, jyno go nie zjedz.",
+    "Ale celność! Wele stołu aż ciotki przestały gadać.",
+    "Dyć niyźle, kajś się nauczył!",
+    "Jest! Ino patrzajta, jak się robi porządek na parkiecie.",
+    "Siadło jak klops na weselnym stole! Brawo!",
+    "No, coś tam jednak umisz! Pszczoła aż podskoczyła z radości.",
+    "Trafił jak trzeba! Jyno orkiestra niech zagra fanfarę.",
+    "Dyć mistrz ula! Zaroz ci naleją miodu do czapki."
+  ],
+  "reakcja_pudło": [
+    "Pudło! Dyć cel był wele nosa, a poleciało kajś za stodołę.",
+    "Niy szkodzi, wujek też czasem trafia ino w stół.",
+    "Oj, chybił! Pszczoła zdążyła se poprawić skrzydełka.",
+    "Kajś poleciał ten strzał, może na poprawiny wróci.",
+    "Jyno bez nerwów! Kapela też czasem gubi nutę.",
+    "Pudło jak życzenia od wujka: długo i niy na temat.",
+    "Dyć prawie! Ino ta pszczoła miała dziś lepszy refleks.",
+    "Niy tam, zawodniku! Wele ula, a nie wele orkiestry.",
+    "Coś tam poszło bokiem. Spróbuj se jeszcze roz.",
+    "Pudło! Na poprawinach celuj bliży, jyno nie w tort."
+  ],
+  "komentarz_wynik_dobry": [
+    "Dyć niyźle! Kajś się nauczył tak grać, na weselu u kuzyna?",
+    "Wynik jak złoto! Ino ciotka już niesie dokładkę sernika.",
+    "Brawo! Pszczoły tańcują, a miód kapie wele słoika.",
+    "Dyć mistrz parkietu i ula! Jyno nie każ nam stawiać pomnika.",
+    "Ale wynik! Wujek coś tam mruczy, że chce rewanżu.",
+    "Poszło jak po maśle, a kapela gra aż wele stodoły.",
+    "No, dyć godnie! Kotylijon se zasłużył na złotą wstążkę.",
+    "Świetna robota! Ino pamiętaj, że tortu niy wygrywa się punktami.",
+    "Pszczoły wiwatują, jyno trutnie udają, że się niy wzruszyły.",
+    "Taki wynik to jest coś tam! Zaroz zatańczymy jeszcze jednego."
+  ],
+  "komentarz_wynik_zły": [
+    "Dyć bywa. Niy każdy musi być królem ula, ktoś pilnuje tortu.",
+    "Wynik skromny, ale humor miej wielki, ino nie chowaj go do kieszeni.",
+    "Niy przejmuj się, na poprawinach będzie druga szansa.",
+    "Pszczoły naradzą się wele ula i dadzą ci jeszcze jedną rundę.",
+    "Dziś parkiet wygroł, ale kajś czeka twój wielki powrót.",
+    "Wyszło jak wujkowy taniec: dyć odważnie, jyno bez planu.",
+    "Głowa do góry! Kotylijon se przekrzywił, humor niech zostanie.",
+    "Wynik niy powalo, za to weselna werwa jeszcze w tobie siedzi.",
+    "Coś tam nie pykło, ale miodu starczy dla wszystkich.",
+    "Ino spokojnie, zawodniku. Na następnym weselu pokażesz, co umisz."
+  ],
+  "niepewnosc": {
+    "bees": [
+      "Dyć niy wiem, {imie}, czy te pszczoły dadzą ci zebrać pyłek w {runda}.",
+      "Kajś one lecą, kajś ty celujesz. Mózg Elektronowy daje ci pół szansy, {imie}.",
+      "{imie}, te pszczoły ruszają się szybciej niż plotka wele ula. Dasz radę?"
+    ],
+    "frame": [
+      "Dyć niy szarp tej ramki, {imie}. Mózg Elektronowy już słyszy trzask wosku.",
+      "{imie}, ręka ma być spokojna jak wujek po obiedzie. Czy to się uda?",
+      "Ta ramka patrzy na ciebie krzywo, {imie}. Wyciągaj ją z namysłem."
+    ],
+    "spinner": [
+      "{imie}, miodarka kręci się, ale Mózg Elektronowy niy wie, czy w dobrą stronę.",
+      "Dyć rytm uciekł kajś pod stół. Odnajdziesz go, {imie}?",
+      "W {runda} liczy się równe koło, {imie}. Te ruchy wyglądają podejrzanie."
+    ],
+    "fishing": [
+      "{imie}, ryba bierze czy tylko robi z ciebie wariata? Mózg Elektronowy niy wie.",
+      "Dyć zarzuć wędkę porządnie, bo w {runda} nawet ryby się śmieją.",
+      "Kajś ta ryba pływa, {imie}. Obyś złowił coś poza własnym rękawem."
+    ],
+    "flying-ducks": [
+      "{imie}, kaczki lecą jak szalone. Mózg Elektronowy obstawia pudło, ale go zaskocz.",
+      "Dyć ta kaczka widziała twój celownik, {imie}, i już się śmieje.",
+      "W {runda} refleks musi być żwawy. Masz go dziś, {imie}?"
+    ],
+    "frogger": [
+      "{imie}, przeszkoda już blisko. Skok, kucnięcie czy panika?",
+      "Dyć niy wiem, czy ta żaba przeżyje twój następny ruch, {imie}.",
+      "Mózg Elektronowy liczy przeszkody w {runda}. Ty też licz, {imie}!"
+    ],
+    "boars": [
+      "{imie}, dziczek ma plan. Ty masz jakiś, czy jyno nadzieję?",
+      "Dyć on biega szybciej niż wujek do bufetu. Trafisz go, {imie}?",
+      "Mózg Elektronowy niy jest pewien, czy w {runda} celujesz w dzika czy w trawę."
+    ],
+    "default": [
+      "Dyć niy wiem, {imie}, czy dasz radę w {runda}. Zaskocz Mózg Elektronowy!",
+      "Kajś to wszystko zmierza? {imie}, pokaż wreszcie jakiś plan.",
+      "Mózg Elektronowy ma wątpliwości, {imie}. Wynik zaroz je rozstrzygnie."
+    ]
+  },
+  "blokada_etapu": [
+    "Dyć niy znasz jeszcze tych ruchów! Idź se najpierw zrób miodarkę!",
+    "Niy tak wartko! Najpierw przejdź poprzedni etap, jyno potem idź dali.",
+    "Kajś ci się pomyliła kolejka. Wróć se do wcześniejszej rundy.",
+    "Dyć tego etapu jeszcze niy odblokowali! Zrób najpierw poprzedni.",
+    "Ino po kolei, zawodniku. Wele początku czeko na ciebie robota.",
+    "Niy przeskakuj rund, bo pszczoły zgubiłyby cały plan.",
+    "Jyno spokojnie! Najpierw miodarka, potym reszta zabawy.",
+    "Coś tam jeszcze zostało do zrobienia w poprzednim etapie.",
+    "Dyć wracaj se rundę wcześniej, tam czeko niedokończona robota.",
+    "Bez poprzedniego etapu ani rusz! Zrób go se, a potem hulaj dusza."
+  ],
+  "niepewnosc": [
+    "Dyć chyba trafiłem... albo pszczoła ino się potknęła.",
+    "Niy wiem, kaj teraz ruszyć ręką. Podpowiedzta coś tam!",
+    "To już koniec rundy, czy jeszcze coś tam zostało?",
+    "Jyno mi się zdaje, że ta kaczka była kajś indziej.",
+    "Dyć wynik chyba dobry, ale nie zakładajcie się o miód.",
+    "Wele ula coś brzęczy... to bonus czy tylko wujek chrapie?",
+    "Niy jestem pewien, czy kręcę dobrze, ale miodarka się cieszy.",
+    "Kajś mi zniknął cel. Może se poszedł na poprawiny?",
+    "Ino zgaduję: mam złapać pszczołę czy pomachać jej na drogę?",
+    "Dyć chyba już wygrałem... jyno czemu nikt nie niesie tortu?",
+    "Coś tam mignęło wele ekranu. Widzieliśta to, czy mi się zdaje?",
+    "Niy wiem, czy to był traf, czy szczęśliwy podskok.",
+    "Kajś jest następna runda? Pytam tak ino na wszelki wypadek.",
+    "Jyno spokojnie, może ten wynik sam się jeszcze poprawi.",
+    "Dyć nie jestem pewien, ale chyba pszczoły klaszczą."
+  ],
+  "polowanie": [
+    "Dyć ten dzik szybszy od ciebie, {imie}, a ty po trzecim piwie!",
+    "{imie}, dzik już za krzakiem, a ty dopiero szukasz czapki!",
+    "W kronice łowieckiej zapiszą: dzik uciekł, {imie} został przy kiełbasie.",
+    "Nie gonita dzika po ciemku, {imie}; on zna las lepi niż wujek drogę do stołu.",
+    "Dyć ślad był świeży, ino {imie} poszedł za zapachem grilla.",
+    "Dzik zrobił unik, a {imie} salutuje mu jak sołtysowi!",
+    "Po takim biegu, {imie}, to dzik powinien cię odprowadzić do domu.",
+    "Wujek mówi, że widział dzika. Ciotka widziała tylko, jak wujek zasnął.",
+    "Synki, dzik nie czeka na odprawę! Ruszajta, póki ślad nie ostygł!",
+    "Z {skad} do lasu daleko, ale wymówka {imie} dotarła pierwsza."
+  ],
+  "miod": [
+    "Marcin, twoje pszczoły robią lepszy miód niż ty wymówki!",
+    "{imie}, pszczoły już zebrały nektar, a ty ino zbierasz gratulacje.",
+    "Dyć ten miód słodki! {imie}, zdradź, czy pszczoły też miały jubileusz.",
+    "Pszczoła ma żądło, {imie} ma gadane, a ciotka ma słoik na dokładkę.",
+    "W ulu robota wre, a wujek przy stole opowiada, że sam doglądał.",
+    "{wiek} lat, {imie}, a pszczoły dalej młodsze od twoich opowieści!",
+    "Nie mieszaj łyżką tak szybko, {imie}; to miód, nie miodarka na weselu.",
+    "Pszczoły z {skad} przyleciały po miód, a zostały na tort.",
+    "Synki, nie podjadajta plastra! Ciotka już liczy kawałki.",
+    "Dyć królewski miód! Jeszcze tylko wujek musi przestać mówić, że jego lepszy."
+  ],
+  "ryby": [
+    "Tata Henio złapałby tę rybę jedną ręką. Ale on już pił.",
+    "{imie}, ta ryba była wielka, czy wujek opowiadał przy większym kieliszku?",
+    "Dyć coś szarpnęło! To ryba czy ciotka sprawdza, czy siedzisz prosto?",
+    "Z {skad} na ryby daleko, ale opowieść o taaakiej sztuce już tu dotarła.",
+    "Wędka stoi, spławik drzemie, a {imie} już planuje zdjęcie z trofeum.",
+    "Synki, cicho nad wodą! Wujek właśnie zasnął przy swojej przynęcie.",
+    "Ryba zerwała się z haczyka, ale legenda {imie} będzie żyła do poprawin.",
+    "Ciotka pyta, czy złowisz kolację, czy mamy zamówić śledzia.",
+    "Połów skromny, {imie}, ale wymiar opowieści już rekordowy!",
+    "Dyć bierz podbierak! Ta ryba zaraz sama poprosi o dokładkę."
+  ],
+  "rodzina": [
+    "Wujkowie już przy stole, ciotki już wiedzą, kto jeszcze nie zjadł!",
+    "{imie}, ciotka mówi, że wyrosłeś. Wujek mówi to samo od {wiek} lat.",
+    "Synki, nie ścigajta się do tortu — ciotka widzi wszystko!",
+    "Wujek miał tylko wznieść toast, a opowiedział całą historię rodu.",
+    "Ciotka z {skad} przyjechała na chwilę i już zna wynik każdej rundy.",
+    "Dyć rodzina najlepsza: pochwali, nakarmi i przypomni, co było w podstawówce.",
+    "{imie}, twoi synkowie grają lepiej, ale wujek twierdzi, że to po nim.",
+    "Wujkowie pilnują grilla, ciotki pilnują wujków, a kto pilnuje miodu?",
+    "Na 50-lecie Marcina nawet kuzyn, którego nikt nie pamięta, jest swój!",
+    "U nas zgoda rodzinna trwa do pierwszego kawałka tortu. Potem dogrywka!"
+  ],
+  "alkohol": [
+    "Po czwartym kieliszku to i dzika byś złapał gołymi rękami — ale lepiej nie próbuj!",
+    "{imie}, popijaj wodą, bo jutro nawet pszczoła będzie ci za głośno bzyczeć.",
+    "Wujek mówi, że pije symbolicznie. Symbol ma już trzecią dokładkę.",
+    "Dyć toast za Marcina! Potem sok, żeby nogi pamiętały drogę do domu.",
+    "Ciotka widzi, że kieliszek pusty. Na szczęście dzbanek z wodą pełny!",
+    "Po jednym toaście każdy jest rybakiem, myśliwym i królem parkietu.",
+    "{wiek} lat świętujemy, {imie}; jutro niech kronikarz opowie resztę.",
+    "Synki, nie mieszajta napojów — miód z herbatą też robi robotę.",
+    "Z {skad} przywieźli humor, a wodę mamy tu na miejscu. Korzystajta!",
+    "Wznosim toast, nie wyścig! Niech zabawa będzie długa, a powrót bezpieczny."
+  ],
+  "wodzirej": [
+    "Strzał w dziesiątkę! Jak Marcin na swoją pięćdziesiątkę — precyzja absolutna!",
+    "Pudło! Ale po trzeciej kolejce to i Rambo by pudłował!",
+    "Za zdrowie Marcina, niech żyje sto lat — a teraz celuj, bo dzik nie będzie czekał!",
+    "Kto nie pije, ten nie żyje — ale kto nie trafia, temu bigos z dziczyzny stygnie!",
+    "Raz kozie śmierć! Sarna w lewo, kaczka w prawo, a ty patrz na cel, szanowny łowco!",
+    "Dziki w lasach warmińskich już trąbią: Marcin ma pięćdziesiątkę, szykujcie toast!",
+    "Ryba złapana! Dziś wieczór będzie jak u Henryka na imprezie — wszystko pływa!",
+    "Kaczka trafiona! Niech orkiestra gra, a szklanka wódki niech tylko stoi do toastu!",
+    "Pudło, panie myśliwy! Nawet wujek po bigosie z dziczyzny lepiej by wycelował!",
+    "Pięćdziesiąt lat Marcina — wiwat! A teraz pokaż, czy masz sokole oko, czy tylko toastowe!",
+    "Sarna czmychnęła, dzik się śmieje — popraw celownik, bo ciotki patrzą z parkietu!",
+    "Bigos z dziczyzny czeka, toast już gotowy — jeszcze tylko traf w ten cel, królu polowania!",
+    "Hop, hop, łowcy! Kto dziś upoluje najwięcej, ten pierwszy do tańca z ciocią!",
+    "Strzał poszedł, echo niesie po lesie — oby cel dostał, a nie tylko wujek brawa!",
+    "Warmińskie lasy, piękna noc, Marcin pięćdziesiąt lat — wznieśmy toast i ruszaj na łowy!",
+    "Dzika nie ma, kaczki nie ma — ale humor jest! Niech żyje Marcin i celne oko!",
+    "Za pudło nie ma mandatu, jest za to dokładka bigosu — próbuj jeszcze raz, myśliwcze!",
+    "Kto złowi rybę i trafi dzika, temu kapela zagra do rana — no, przynajmniej wujek Henio!"
+  ],
+  "kroniki": [
+    "Kronika Marcina, rozdział pięćdziesiąty: tort zniknął szybciej niż dzik w krzakach.",
+    "Z zapisków jubileuszu: {imie} ruszył po miód i wrócił z opowieścią o rybie.",
+    "Kronikarz notuje: wujek widział dzika, ciotka widziała pusty półmisek.",
+    "W annałach {skad} zapisano: Marcin świętował, a pszczoły pilnowały tortu.",
+    "Kronika rundy: synki zdobyły punkty, wujek zdobył dokładkę.",
+    "Z kronik Marcina: spławik drgnął, trzy osoby widziały rybę, nikt nie widział haczyka.",
+    "Pięćdziesiąta karta kroniki: ciotka przewidziała wynik, zanim gra się zaczęła.",
+    "Kronikarz zapisuje słowa wujka: «Dzik był taki», po czym pokazuje coraz szerzej.",
+    "W dziejach tej pasieki {imie} zapisał się złotą łyżką w słoiku miodu.",
+    "Dopisek na marginesie kroniki: po toaście wszyscy pamiętają tylko, kto kroił tort."
+  ],
+  "etymologia": {
+    "dyć": "Gwarowa partykuła emfatyczna o znaczeniu zbliżonym do «przecież», «wszak». Dokładne pochodzenie historyczne wymaga sprawdzenia w hasłach słownika gwarowego; tutaj użyta jako regionalny wyróżnik stylizacji.",
+    "niy": "Stylizowany zapis wymowy wyrazu «nie»; litera y oddaje regionalną realizację samogłoski, nie tworzy osobnego rdzenia.",
+    "kajś": "«Kaj» jest regionalnym odpowiednikiem «gdzie», a końcowe -ś pełni funkcję nieokreślającą, jak w ogólnopolskim «gdzieś».",
+    "ino": "Gwarowy wariant «jeno» o znaczeniu «tylko». To regionalne słowo znane w wielu gwarach polskich; jego dalsze pochodzenie nie jest tu rozstrzygane.",
+    "wele": "Regionalny przyimek/adwerbium znaczący zależnie od kontekstu «przy», «obok» lub «koło». Dokładna etymologia formy nie została tu potwierdzona.",
+    "jyno": "Stylizowany wariant «jeno» (por. «ino») w znaczeniu «tylko»; zapis oddaje gwarową wymowę.",
+    "se": "Potoczna i gwarowa redukcja zaimka zwrotnego «się»; zachowuje jego funkcję gramatyczną.",
+    "coś": "Zaimek nieokreślony zbudowany z «co» i partykuły -ś, wskazujący na rzecz lub działanie nieokreślone.",
+    "tam": "Stary zaimek przysłowny wskazujący miejsce; w wyrażeniu «coś tam» wzmacnia nieokreślony, potoczny sens.",
+    "coś tam": "Połączenie zaimka nieokreślonego «coś» z przysłówkiem miejsca «tam»; w kwestiach użyte potocznie w sensie «jakaś rzecz / coś nieokreślonego».",
+    "kaj": "Regionalny odpowiednik «gdzie», notowany w gwarach północnej Polski; szczegółowe pochodzenie dialektalne wymaga konsultacji pełnego hasła słownikowego.",
+    "witajta": "Forma rozkazująca 2. osoby liczby mnogiej z gwarową końcówką -ta zamiast standardowego -cie; końcówka kontynuuje dawną końcówkę liczby podwójnej.",
+    "chodźta": "Gwarowa forma rozkazująca od «chodzić» z końcówką -ta, używaną regionalnie zamiast -cie.",
+    "wchodźta": "Forma rozkazująca od «wchodzić» z regionalną końcówką liczby mnogiej -ta.",
+    "dawajta": "Forma rozkazująca od «dawać» z regionalną końcówką -ta.",
+    "patrzajta": "Rozkazująca forma od «patrzeć», rozszerzona o gwarową końcówkę -aj- i regionalne -ta.",
+    "bliży": "Gwarowy wariant stopnia wyższego «bliżej»; różnica ma charakter fonetyczno-morfologiczny.",
+    "kotylijon": "Fonetyczna stylizacja wyrazu «kotylion», oddająca wymowę z jotą; samo «kotylion» zapożyczono z francuskiego cotillon.",
+    "podziewoł": "Regionalna postać czasu przeszłego od «podziewać się», z mazurzącą/odmienną realizacją samogłoski w końcówce.",
+    "posiłka": "Regionalne użycie rzeczownika «posiłek» w znaczeniu pomocy lub wsparcia; dalsze pochodzenie rdzenia jest wspólne z polskim «posiłek».",
+    "zaroz": "Gwarowa postać «zaraz», z wymianą samogłoski w wygłosie; wyraz «zaraz» pochodzi od dawnego «za raz».",
+    "umisz": "Regionalna forma 2. osoby liczby pojedynczej czasu teraźniejszego od «umieć»; zachowuje końcówkę -isz zamiast standardowego -esz.",
+    "abo": "Gwarowy wariant spójnika «albo», powstały przez uproszczenie grupy głoskowej.",
+    "lepi": "Gwarowy wariant przysłówka «lepiej», z uproszczoną końcówką.",
+    "tańcuj": "Regionalna forma rozkazująca od «tańcować»; czasownik utworzony od «taniec» przyrostkiem -ować.",
+    "tańcuje": "Regionalna postać 3. osoby od «tańcować», utworzonego od rzeczownika «taniec» przyrostkiem -ować.",
+    "wartko": "Regionalny przysłówek «szybko, żwawo», utworzony od przymiotnika «wartki».",
+    "czeko": "Gwarowa forma 3. osoby «czeka» z wymianą samogłoski a > o w wygłosie.",
+    "potym": "Gwarowy wariant «potem», zachowujący samogłoskę y w formie przysłówkowej.",
+    "dali": "Regionalny wariant przysłówka «dalej», z uproszczoną końcówką.",
+    "roz": "Gwarowa postać liczebnika/przysłówka «raz», z wymianą samogłoski a > o.",
+    "niyźle": "Stylizowany zapis «nieźle»; zawiera regionalną pisownię «niy» i zachowuje znaczenie wyrazu «nieźle».",
+    "powalo": "Gwarowa postać «powala», z wymianą samogłoski a > o w wygłosie.",
+    "pykło": "Potoczny czasownik dźwiękonaśladowczy «pyknąć» w formie przeszłej; nie jest swoisty wyłącznie dla Warmii.",
+    "wygroł": "Regionalny wariant «wygrał», z gwarową wymianą samogłoski w temacie.",
+    "trza": "Gwarowa i potoczna forma «trzeba», powstała przez skrócenie.",
+    "źródła": [
+      "https://ijppan.pl/wp-content/uploads/2018/10/sgowm_probki_hasel.pdf",
+      "https://niematerialne.nid.pl/project/13-gwara-warminska/"
+    ]
+  }
+}
