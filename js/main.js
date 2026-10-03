@@ -871,8 +871,10 @@
     game.profileAutoConfirmAt = 0;
     const name = game.profileName || ('Gracz ' + (game.profileIndex + 1));
     const profile = { name: name, survivalTest: game.survivalTest.report };
-    if (window.PlayerProfiles) PlayerProfiles.saveProfile(profile, game.profileSnapshot);
+    try { if (window.PlayerProfiles) PlayerProfiles.saveProfile(profile, game.profileSnapshot); } catch (e) { console.warn('saveProfile error:', e); }
     game.players.push({ name: name, photo: game.profileSnapshot && game.profileSnapshot.photo || null });
+    game.profilePhotoTaken = false;
+    game.profileAutoConfirmAt = 0;
     game.profileIndex += 1;
     if (game.profileIndex < game.playerCount) beginProfile();
     else showGameSelect();
@@ -1934,8 +1936,8 @@
     if (game.screen === 'profile' && game.profilePhotoTaken && game.profileAutoConfirmAt > 0 && now() >= game.profileAutoConfirmAt) {
       confirmProfile(); return;
     }
-    if (game.screen === 'profile' && game.profilePhotoTaken && game.actionPressed) {
-      confirmProfile(); game.actionPressed = false; return;
+    if (game.screen === 'profile' && game.profilePhotoTaken && (game.actionPressed || game.pointer.down)) {
+      confirmProfile(); game.actionPressed = false; game.pointer.down = false; return;
     }
     if (window.PlayerProfiles && PlayerProfiles.update()) {
       game.actionPressed = false;
