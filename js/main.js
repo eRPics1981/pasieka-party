@@ -2249,32 +2249,35 @@
       const timeLeft = Math.max(0, game.profileAutoConfirmAt - now());
       header('GRACZ ' + (game.profileIndex + 1) + ' — ' + game.profileName.toUpperCase(),
         'Kliknij aby kontynuować. Automatycznie za ' + Math.ceil(timeLeft) + 's…');
-      // Duże zdjęcie wycentrowane
-      const pW = Math.min(GFX.W * 0.72, GFX.H * 1.1);
-      const pH = pW * 0.56;
-      const pX = (GFX.W - pW) / 2, pY = GFX.H * 0.22;
+      // Mniejsze zdjęcie — max 52% wysokości ekranu, żeby pasek i przycisk były widoczne
+      const pW = Math.min(GFX.W * 0.58, GFX.H * 0.8);
+      const pH = Math.min(pW * 0.75, GFX.H * 0.52);
+      const pX = (GFX.W - pW) / 2, pY = GFX.H * 0.2;
       ctx.fillStyle = '#1a3010';
       ctx.fillRect(pX, pY, pW, pH);
       if (game.profileImage && game.profileImage.complete && game.profileImage.naturalWidth) {
         ctx.drawImage(game.profileImage, pX, pY, pW, pH);
       }
       // Kolorowa etykieta z imieniem na dole zdjęcia
-      ctx.fillStyle = 'rgba(0,0,0,0.65)';
-      ctx.fillRect(pX, pY + pH - 56, pW, 56);
+      ctx.fillStyle = 'rgba(0,0,0,0.72)';
+      ctx.fillRect(pX, pY + pH - 48, pW, 48);
       ctx.fillStyle = '#FFD700';
-      ctx.font = 'bold ' + Math.min(38, Math.round(pW * 0.07)) + 'px Segoe UI, sans-serif';
+      ctx.font = 'bold ' + Math.min(32, Math.round(pW * 0.08)) + 'px Segoe UI, sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText(game.profileName, pX + pW / 2, pY + pH - 14);
+      ctx.fillText(game.profileName, pX + pW / 2, pY + pH - 12);
       ctx.strokeStyle = '#FFD78A'; ctx.lineWidth = 4;
       ctx.strokeRect(pX, pY, pW, pH);
       // Pasek odliczania
-      const barW = Math.min(GFX.W * 0.7, 500);
+      const barW = Math.min(GFX.W * 0.65, 460);
       const barX = (GFX.W - barW) / 2;
-      const barY = pY + pH + 14;
+      const barY = pY + pH + 12;
       ctx.fillStyle = 'rgba(255,215,0,0.2)';
-      ctx.fillRect(barX, barY, barW, 10);
+      ctx.fillRect(barX, barY, barW, 12);
       ctx.fillStyle = '#FFD700';
-      ctx.fillRect(barX, barY, barW * (timeLeft / 2.2), 10);
+      ctx.fillRect(barX, barY, barW * (timeLeft / 2.2), 12);
+      // Przycisk DALEJ
+      const btnH = Math.round(GFX.H * 0.1);
+      GFX.drawBigButton('DALEJ ▶', GFX.W * 0.25, barY + 20, GFX.W * 0.5, btnH, true);
     }
   }
 
