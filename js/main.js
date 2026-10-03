@@ -1576,9 +1576,9 @@
     };
   }
 
-  function resetFishingCast(fishing) {
+  function resetFishingCast(fishing, time) {
     fishing.castTravel = 0;
-    fishing.castStartedAt = 0;
+    fishing.castStartedAt = time || 0;
   }
 
   function startFishBite(fishing, fish, rule, time) {
@@ -1589,6 +1589,8 @@
     fishing.reelTurns = 0;
     fishing.reelLastAngle = null;
     fishing.lastReelAt = time;
+    fishing.lastY = null;
+    fishing.lastX = null;
     if (window.SFX) SFX.tick();
   }
 
@@ -1612,20 +1614,20 @@
       } else {
         const vertical = Math.abs(pos.y - fishing.lastY);
         const horizontal = Math.abs(pos.x - fishing.lastX);
-        if (time - fishing.castStartedAt > 0.8) resetFishingCast(fishing);
+        if (time - fishing.castStartedAt > 0.8) resetFishingCast(fishing, time);
         if (vertical > horizontal && vertical / Math.max(delta, 0.016) >= rule.castMinVelocity) fishing.castTravel += vertical;
         fishing.lastY = pos.y;
         fishing.lastX = pos.x;
         if (fishing.castTravel >= rule.castMinTravel) {
           const fish = fishing.fish.find(function (candidate) { return !candidate.caught && !candidate.biting; });
           if (fish) startFishBite(fishing, fish, rule, time);
-          resetFishingCast(fishing);
+          resetFishingCast(fishing, time);
         }
       }
     } else if (!pos.visible) {
       fishing.lastY = null;
       fishing.lastX = null;
-      resetFishingCast(fishing);
+      resetFishingCast(fishing, time);
     }
 
     const fish = fishing.activeFish;
@@ -1636,6 +1638,8 @@
         fishing.reelPoints = [];
         fishing.reelTurns = 0;
         fishing.reelLastAngle = null;
+        fishing.lastY = null;
+        fishing.lastX = null;
         if (window.SFX) SFX.beepBad();
       } else if (pos.visible) {
         fishing.reelPoints.push({ x: pos.x, y: pos.y });
@@ -1652,6 +1656,11 @@
         if (fishing.reelTurns >= rule.reelMinTurns) {
           fish.caught = true;
           fishing.activeFish = null;
+          fishing.lastY = null;
+          fishing.lastX = null;
+          fishing.reelPoints = [];
+          fishing.reelTurns = 0;
+          fishing.reelLastAngle = null;
           state.progress = clamp(state.progress + 1 / game.round.target, 0, 1);
           state.bonus = clamp(state.bonus + 0.025, 0, 0.2);
           if (window.SFX) SFX.beepGood();
@@ -2410,12 +2419,13 @@
   function drawFishing(state) {
     const ctx = GFX.ctx;
     const fishing = state.fishing;
+    const area = game.round.rule.fishSpawnArea;
     GFX.clear('#68B9D5');
     ctx.fillStyle = '#2879A6'; ctx.fillRect(0, GFX.H * 0.64, GFX.W, GFX.H * 0.36);
     ctx.fillStyle = '#D9C46A'; ctx.fillRect(0, GFX.H * 0.59, GFX.W, GFX.H * 0.06);
     fishing.fish.forEach(function (fish) {
       const x = fish.x * GFX.W;
-      const y = fish.y * GFX.H + Math.sin(fish.phase) * 5;
+      const y = clamp(fish.y * GFX.H + Math.sin(fish.phase) * 5, area.yMin * GFX.H, area.yMax * GFX.H);
       ctx.save(); ctx.translate(x, y);
       ctx.fillStyle = fish.biting ? '#FFD700' : '#F27F55';
       ctx.beginPath(); ctx.ellipse(0, 0, fish.size, fish.size * 0.55, 0, 0, Math.PI * 2); ctx.fill();
