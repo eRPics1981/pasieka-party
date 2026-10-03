@@ -227,7 +227,27 @@ const HandTracker = (() => {
       return;
     }
 
-    const landmarks = results.multiHandLandmarks[0];
+    // Gdy dwie ręce: preferuj tę która ostatnio ścisnęła (pinch), żeby nie skakać między rękami
+    let activeHandIndex = 0;
+    if (results.multiHandLandmarks.length >= 2) {
+      const h0tip = results.multiHandLandmarks[0][4];
+      const h0idx = results.multiHandLandmarks[0][8];
+      const h1tip = results.multiHandLandmarks[1][4];
+      const h1idx = results.multiHandLandmarks[1][8];
+      const d0 = h0tip && h0idx ? distance(h0tip, h0idx) : 1;
+      const d1 = h1tip && h1idx ? distance(h1tip, h1idx) : 1;
+      // Wybierz rękę bliżej pincha; jeśli już piszczy — nie zmieniaj
+      if (!cursor.pinching) {
+        activeHandIndex = d0 <= d1 ? 0 : 1;
+      } else {
+        // Zostań przy tej samej ręce podczas piszku — porównaj pozycję kursora
+        const prevX = cursor.rawX;
+        const x0 = 1.0 - (results.multiHandLandmarks[0][8] ? results.multiHandLandmarks[0][8].x : 0);
+        const x1 = 1.0 - (results.multiHandLandmarks[1][8] ? results.multiHandLandmarks[1][8].x : 0);
+        activeHandIndex = Math.abs(x0 - prevX) <= Math.abs(x1 - prevX) ? 0 : 1;
+      }
+    }
+    const landmarks = results.multiHandLandmarks[activeHandIndex];
     const indexTip = landmarks[8];   // Index finger tip
     const thumbTip = landmarks[4];   // Thumb tip
     const wrist = landmarks[0];

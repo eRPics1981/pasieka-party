@@ -1930,6 +1930,13 @@
       return;
     }
     game.homeAction = !!pos.action;
+    // Auto-confirm profilu musi działać nawet gdy PlayerProfiles.update() przejmuje sterowanie
+    if (game.screen === 'profile' && game.profilePhotoTaken && game.profileAutoConfirmAt > 0 && now() >= game.profileAutoConfirmAt) {
+      confirmProfile(); return;
+    }
+    if (game.screen === 'profile' && game.profilePhotoTaken && game.actionPressed) {
+      confirmProfile(); game.actionPressed = false; return;
+    }
     if (window.PlayerProfiles && PlayerProfiles.update()) {
       game.actionPressed = false;
       return;
