@@ -718,7 +718,7 @@
         presence.messageUntil = 0;
       }
       if (!presence.emptySince) presence.emptySince = time;
-      if (!presence.noPlayerAnnounced && time - presence.emptySince >= 10 && time - presence.lastSpeechAt >= 30) {
+      if (!presence.noPlayerAnnounced && game.screen === 'menu' && time - presence.emptySince >= 60 && time - presence.lastSpeechAt >= 90) {
         const fallback = 'Dyć tu się nudzi bez ludzi! Zawołaj kogoś!';
         const message = sayVoice('nikt_nie_gra') || fallback;
         const hasLines = game.voiceLines && Array.isArray(game.voiceLines.nikt_nie_gra) && game.voiceLines.nikt_nie_gra.length;
@@ -755,9 +755,7 @@
     presence.lastSpeechAt = time;
     if (entryCount === 1) {
       const fallback = 'Dyć zawołaj kogoś jeszcze! Nie baw się sam jak palec!';
-      const message = sayVoice('zaproszenie_drugiego') || fallback;
-      const hasLines = game.voiceLines && Array.isArray(game.voiceLines.zaproszenie_drugiego) && game.voiceLines.zaproszenie_drugiego.length;
-      if (!hasLines) addToVoiceQueue(message);
+      const message = fallback;
       presence.message = message;
       presence.messageUntil = time + 6;
       presence.overlay = false;
@@ -769,7 +767,6 @@
     presence.twoHandsReady = true;
     presence.message = 'Ej, już was dwóch! Zaczynamy?';
     presence.messageUntil = time + 6;
-    addToVoiceQueue(presence.message);
     presence.overlay = true;
   }
 
@@ -1970,7 +1967,7 @@
       return;
     }
     const handVisible = game.handAvailable && typeof HandTracker !== 'undefined' && HandTracker.cursor.visible;
-    if (handVisible && !game.lastHandVisible && game.screen !== 'menu') sayVoice('powitanie');
+    if (handVisible && !game.lastHandVisible && game.screen === 'playing') sayVoice('powitanie');
     game.lastHandVisible = handVisible;
     if (game.screen === 'playing') {
       if (game.uncertaintyMode && now() - game.lastUncertaintyAt >= 15) {
